@@ -1,0 +1,108 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+.contacts {
+  background-color: white;
+  display: flex;
+  flex-basis: 20%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.main {
+  display: flex;
+  flex-basis: 80%;
+  background-color: #e8ebe4;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main span {
+  font-size: 45px;
+  font-weight: 500;
+}
+.main p {
+  margin: 0;
+  font-size: 16px;
+}
+.main img {
+  border-radius: 12px;
+  width: 350px;
+  height: 350px;
+  margin-bottom: 18px;
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 2px #e8ebe4;
+  padding: 1.1em 1.5em;
+}
+.contact:hover {
+  background-color: #f3f6f0;
+}
+.contact img {
+  border-radius: 50%;
+}
+.contact-1 img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.contact-1 {
+  display: flex;
+  font-size: 10px;
+}
+.contact-1 ul {
+  padding-left: 1em;
+}
+.contact-1 li {
+  font-size: 10px;
+  list-style: none;
+}
+i {
+  margin-right: 1em;
+  color: grey;
+}
+.button {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border-bottom: solid 2px #e8ebe4;
+}
+button {
+  color: white;
+  background-color: #a491d2;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  padding: 15px 40px;
+}
+.button a {
+  color: white;
+  text-decoration: none;
+}
+button:hover {
+  background-color: #cdc3e6;
+}
+.contact-2 {
+  display: flex;
+  flex-direction: row;
+  font-size: 10px;
+}
+.contact-2 ul {
+  padding-left: 1.5em;
+}
+.contact-2 li {
+  font-size: 14px;
+  list-style: none;
+}
+#name {
+  font-size: 16px;
+}
