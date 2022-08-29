@@ -13,11 +13,12 @@ body {
   flex-basis: 20%;
   flex-direction: column;
   justify-content: space-evenly;
+  border-right: solid 3px #e8ebe4;
 }
 .main {
   display: flex;
   flex-basis: 80%;
-  background-color: #e8ebe4;
+  background-color: #eee;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -36,6 +37,10 @@ body {
   height: 350px;
   margin-bottom: 18px;
 }
+.main-img:hover {
+  -webkit-transform: scale(1);
+  transform: scale(1.1);
+}
 .contact {
   display: flex;
   flex-direction: row;
@@ -45,7 +50,7 @@ body {
   padding: 1.1em 1.5em;
 }
 .contact:hover {
-  background-color: #f3f6f0;
+  background-color: #eee;
 }
 .contact img {
   border-radius: 50%;
@@ -105,4 +110,7 @@ button:hover {
 }
 #name {
   font-size: 16px;
+}
+.color2 {
+  color: #cdc3e6;
 }
